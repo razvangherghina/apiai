@@ -1,0 +1,27 @@
+{
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "script",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"globals": {
+		"Promise": true
+	},
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"strict": "error",
+		"padded-blocks": [ "error", "never" ],
+		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+		"semi": "error",
+		"brace-style": [ "error", "1tbs", { "allowSingleLine": true }],
+		"curly": [ "error", "multi-line"],
+		"indent": [ "error", 2, { "MemberExpression": 1 }],
+		"no-console": 0,
+		"no-trailing-spaces": "error"
+	}
+}

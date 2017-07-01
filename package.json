@@ -1,0 +1,25 @@
+{
+  "name": "apiai",
+  "version": "1.0.0",
+  "description": "Api Ai",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^15.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razvangherghina/apiai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razvangherghina/apiai/issues"
+  },
+  "homepage": "https://github.com/razvangherghina/apiai#readme"
+}
